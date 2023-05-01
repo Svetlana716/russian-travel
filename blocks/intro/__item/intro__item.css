@@ -1,0 +1,15 @@
+.intro__item {
+  align-self: start;
+}
+
+@media screen and (max-width: 930px) {
+  .intro__item {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__item {
+    margin: 0 16px;
+  }
+}
