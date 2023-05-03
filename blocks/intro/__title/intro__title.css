@@ -5,15 +5,16 @@
   margin: 0 0 40px 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 431px) {
   .intro__title {
-    font-size: calc(32px + (54 - 32) * ((100vw - 320px) / (1280 - 320)));
+    font-size: 38px;
   }
 }
+
 
 @media screen and (max-width: 320px) {
   .intro__title {
     font-size: 32px;
     line-height: 1.09;
-}
+  }
 }

@@ -2,5 +2,10 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
-  color: #FFFFFF;
+  color: #fff;
+}
+
+.place__link:hover {
+  opacity: 0.8;
+  transition: opacity 1s linear;
 }

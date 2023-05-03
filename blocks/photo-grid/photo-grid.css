@@ -9,19 +9,17 @@
   .photo-grid {
     max-width: 928px;
     gap: 14px;
-}
+  }
 }
 
 @media screen and (max-width: 977px) {
   .photo-grid {
     max-width: 720px;
-}
+  }
 }
 
 @media screen and (max-width: 752px) {
   .photo-grid {
     max-width: 288px;
+  }
 }
-}
-
-
