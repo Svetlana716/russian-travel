@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 1024px) {
   .place__title {
-    font-size: 55px;
+    font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (1024 - 320)));
   }
 }
 
@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 644px) {
   .place__title {
     font-size: 32px;
     margin: 0 16px;

@@ -11,3 +11,8 @@
     font-size: 18px;
   }
 }
+
+.footer__link:hover {
+  opacity: 0.8;
+  transition: opacity 1s linear;
+}
